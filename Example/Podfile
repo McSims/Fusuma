@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'Fusuma_Example', :exclusive => true do
+project 'FusumaExample.xcodeproj'
+
+target 'FusumaExample' do
   pod 'Fusuma', :path => '../'
 end
 
-target 'Fusuma_Tests', :exclusive => true do
+target 'FusumaUITesting' do
   pod 'Fusuma', :path => '../'
-
-  pod 'FBSnapshotTestCase'
 end

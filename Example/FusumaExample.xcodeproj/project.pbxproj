@@ -13,6 +13,7 @@
 		52412AC91CA61C9F0073C4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52412AC71CA61C9F0073C4BE /* Main.storyboard */; };
 		52412ACB1CA61C9F0073C4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52412ACA1CA61C9F0073C4BE /* Assets.xcassets */; };
 		52412ACE1CA61C9F0073C4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52412ACC1CA61C9F0073C4BE /* LaunchScreen.storyboard */; };
+		5D579D09387B8BE9AA6F3BF9 /* Pods_FusumaUITesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3274BF7D44F8EC08059AF087 /* Pods_FusumaUITesting.framework */; };
 		A6C258AE21B1CADD00B32229 /* FSCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2589E21B1CADD00B32229 /* FSCameraView.xib */; };
 		A6C258AF21B1CADD00B32229 /* FSImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2589F21B1CADD00B32229 /* FSImageCropView.swift */; };
 		A6C258B021B1CADD00B32229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C258A021B1CADD00B32229 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		A6C258BA21B1CADD00B32229 /* FusumaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C258AB21B1CADD00B32229 /* FusumaViewController.xib */; };
 		A6C258BB21B1CADD00B32229 /* FSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C258AC21B1CADD00B32229 /* FSCameraView.swift */; };
 		A6C258BC21B1CADD00B32229 /* FSAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C258AD21B1CADD00B32229 /* FSAlbumView.swift */; };
+		A91F70239FFB32B4F33C448C /* Pods_FusumaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E2EC503403A94F58B733 /* Pods_FusumaExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		17AF1C8F1FDB81C900427B11 /* FusumaUITesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusumaUITesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AF1C911FDB81C900427B11 /* FusumaUITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusumaUITesting.swift; sourceTree = "<group>"; };
 		17AF1C931FDB81C900427B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D53E2EC503403A94F58B733 /* Pods_FusumaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FusumaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3274BF7D44F8EC08059AF087 /* Pods_FusumaUITesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FusumaUITesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43705F57F1FD6A743517D105 /* Pods-FusumaUITesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusumaUITesting.release.xcconfig"; path = "Target Support Files/Pods-FusumaUITesting/Pods-FusumaUITesting.release.xcconfig"; sourceTree = "<group>"; };
 		52412AC01CA61C9F0073C4BE /* FusumaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusumaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52412AC31CA61C9F0073C4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52412AC51CA61C9F0073C4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +55,8 @@
 		52412ACA1CA61C9F0073C4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52412ACD1CA61C9F0073C4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52412ACF1CA61C9F0073C4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6D04C40DBA14A20B66E6F6 /* Pods-FusumaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusumaExample.release.xcconfig"; path = "Target Support Files/Pods-FusumaExample/Pods-FusumaExample.release.xcconfig"; sourceTree = "<group>"; };
+		A45FFA8418E3902B6628A495 /* Pods-FusumaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusumaExample.debug.xcconfig"; path = "Target Support Files/Pods-FusumaExample/Pods-FusumaExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C2589E21B1CADD00B32229 /* FSCameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSCameraView.xib; sourceTree = "<group>"; };
 		A6C2589F21B1CADD00B32229 /* FSImageCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSImageCropView.swift; sourceTree = "<group>"; };
 		A6C258A021B1CADD00B32229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 		A6C258AB21B1CADD00B32229 /* FusumaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FusumaViewController.xib; sourceTree = "<group>"; };
 		A6C258AC21B1CADD00B32229 /* FSCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCameraView.swift; sourceTree = "<group>"; };
 		A6C258AD21B1CADD00B32229 /* FSAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumView.swift; sourceTree = "<group>"; };
+		DAD1B810728DD0FC3F7A1A6D /* Pods-FusumaUITesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusumaUITesting.debug.xcconfig"; path = "Target Support Files/Pods-FusumaUITesting/Pods-FusumaUITesting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D579D09387B8BE9AA6F3BF9 /* Pods_FusumaUITesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91F70239FFB32B4F33C448C /* Pods_FusumaExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +109,8 @@
 				52412AC21CA61C9F0073C4BE /* FusumaExample */,
 				17AF1C901FDB81C900427B11 /* FusumaUITesting */,
 				52412AC11CA61C9F0073C4BE /* Products */,
+				E58AB7FD4E054155B1EF9F7A /* Pods */,
+				BAFDEE95503EFA57214ADC1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +167,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		BAFDEE95503EFA57214ADC1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D53E2EC503403A94F58B733 /* Pods_FusumaExample.framework */,
+				3274BF7D44F8EC08059AF087 /* Pods_FusumaUITesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58AB7FD4E054155B1EF9F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45FFA8418E3902B6628A495 /* Pods-FusumaExample.debug.xcconfig */,
+				6D6D04C40DBA14A20B66E6F6 /* Pods-FusumaExample.release.xcconfig */,
+				DAD1B810728DD0FC3F7A1A6D /* Pods-FusumaUITesting.debug.xcconfig */,
+				43705F57F1FD6A743517D105 /* Pods-FusumaUITesting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17AF1C981FDB81C900427B11 /* Build configuration list for PBXNativeTarget "FusumaUITesting" */;
 			buildPhases = (
+				D6CCA7F799835C79463AB7A0 /* [CP] Check Pods Manifest.lock */,
 				17AF1C8B1FDB81C900427B11 /* Sources */,
 				17AF1C8C1FDB81C900427B11 /* Frameworks */,
 				17AF1C8D1FDB81C900427B11 /* Resources */,
+				0DD7B51C6C192E16269712F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52412AD21CA61C9F0073C4BE /* Build configuration list for PBXNativeTarget "FusumaExample" */;
 			buildPhases = (
+				0078E40221869371FD04BE6D /* [CP] Check Pods Manifest.lock */,
 				52412ABC1CA61C9F0073C4BE /* Sources */,
 				52412ABD1CA61C9F0073C4BE /* Frameworks */,
 				52412ABE1CA61C9F0073C4BE /* Resources */,
+				911BA575E49B68607F7A7B54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,12 +236,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = ytakzk;
 				TargetAttributes = {
 					17AF1C8E1FDB81C900427B11 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 52412ABF1CA61C9F0073C4BE;
 					};
@@ -219,7 +255,7 @@
 			};
 			buildConfigurationList = 52412ABB1CA61C9F0073C4BE /* Build configuration list for PBXProject "FusumaExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -261,6 +297,89 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0078E40221869371FD04BE6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FusumaExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DD7B51C6C192E16269712F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FusumaUITesting/Pods-FusumaUITesting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Fusuma-iOS11.2/Fusuma.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FusumaUITesting/Pods-FusumaUITesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911BA575E49B68607F7A7B54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FusumaExample/Pods-FusumaExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Fusuma-iOS8.0/Fusuma.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FusumaExample/Pods-FusumaExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CCA7F799835C79463AB7A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FusumaUITesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17AF1C8B1FDB81C900427B11 /* Sources */ = {
@@ -320,6 +439,7 @@
 /* Begin XCBuildConfiguration section */
 		17AF1C961FDB81C900427B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD1B810728DD0FC3F7A1A6D /* Pods-FusumaUITesting.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -334,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fusuma.FusumaUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FusumaExample;
 			};
@@ -342,6 +462,7 @@
 		};
 		17AF1C971FDB81C900427B11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43705F57F1FD6A743517D105 /* Pods-FusumaUITesting.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -355,7 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fusuma.FusumaUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FusumaExample;
 			};
@@ -365,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -408,12 +530,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -422,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -459,11 +582,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -471,6 +594,7 @@
 		};
 		52412AD31CA61C9F0073C4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45FFA8418E3902B6628A495 /* Pods-FusumaExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -482,12 +606,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ytakzk.FusumaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Dev;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		52412AD41CA61C9F0073C4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6D04C40DBA14A20B66E6F6 /* Pods-FusumaExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -497,7 +622,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ytakzk.FusumaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Dev;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
